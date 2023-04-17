@@ -80,8 +80,6 @@ img {
 .menu-nav {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .primary_logo {
   font-family: var(--secondary-font-family);
@@ -113,6 +111,10 @@ img {
 .link:hover,
 .link:focus {
   color: var(--h-f_color);
+}
+.menu-item {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .menu-item:not(:last-child) {
   margin-right: 40px;
