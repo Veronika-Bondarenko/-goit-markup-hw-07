@@ -107,14 +107,12 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .link:hover,
 .link:focus {
   color: var(--h-f_color);
-}
-.menu-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .menu-item:not(:last-child) {
   margin-right: 40px;
