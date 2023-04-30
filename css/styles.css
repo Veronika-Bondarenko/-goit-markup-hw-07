@@ -177,8 +177,8 @@ img {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/people-office.jpg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain;
-  min-width: 1440px;
+  background-size: cover;
+  max-width: 1440px;
   padding-bottom: 188px;
   padding-top: 188px;
 }
@@ -211,6 +211,7 @@ img {
   height: 112px;
   background: #F4F4FD;
   margin-bottom: 8px;
+  border-radius: 4px;
 }
 .work {
   padding-bottom: 120px;
@@ -251,8 +252,11 @@ img {
 .bd-card {
   background: var(--color_white);
 }
-.bd-card:hover,
-.bd-card:focus {
+.link-card {
+  display: block;
+}
+.link-card:hover,
+.link-card:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .item-card {
@@ -268,7 +272,7 @@ img {
   gap: 24px;
 }
 .text-card-team {
-  padding: 32px 16px;
+  padding: 32px 0;
   border-radius: 0px 0px 4px 4px;
 }
 /* socials icons */
@@ -276,7 +280,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 24px;
 }
 .socials-link {
   display: flex;
@@ -341,7 +345,7 @@ img {
 }
 .footer-position {
   display: flex;
-  gap: 120px;
+  align-items: baseline;
 }
 .footer_bd {
   background: var(--main-color);
@@ -351,7 +355,10 @@ img {
 .logo-footer {
   margin-bottom: 16px;
 }
-.footer-header {
+.footer-position-left {
+  margin-right: 120px;
+}
+.footer-social {
   font-family: var(--primary-font-family);
   font-weight: 500;
   font-size: 16px;
@@ -363,6 +370,9 @@ img {
 .footer-icons:hover,
 .footer-icons:focus {
   background-color: #31d0aa;
+}
+.footer-social-icon {
+  gap: 16px;
 }
 /* ---/FOOTER--- */
 /* ---PORTFOLIO--- */
