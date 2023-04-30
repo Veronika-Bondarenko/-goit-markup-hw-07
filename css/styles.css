@@ -303,7 +303,7 @@ img {
   font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -323,6 +323,7 @@ img {
   border-radius: 4px;
   width: 168px;
   height: 88px;
+  color: #8e8f99;
 }
 .customers-icon {
   fill: #AFB1B8;
