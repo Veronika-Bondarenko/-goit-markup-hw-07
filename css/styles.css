@@ -144,12 +144,12 @@ img {
 }
 .address-nav {
   display: flex;
-  transition: color var(--anim-fast);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-item:not(:last-child) {
   margin-right: 40px;
 }
-.link_item::after {
+.active::after {
   content: "";
   position: absolute;
   bottom: -1px;
@@ -159,12 +159,8 @@ img {
   display: block;
   border-radius: 2px;
   background-color: var(--h-f_color);
-  background-color: transparent;
-}
-.active::after {
-  background-color: var(--h-f_color);
-  transition: color var(--anim-fast);
-  color: #404bbf;
+  color: var(--h-f_color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* ---/HEADER--- */
 /* ---HERO--- */
