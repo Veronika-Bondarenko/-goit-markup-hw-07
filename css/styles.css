@@ -119,6 +119,7 @@ img {
   color: var(--main-color);
   padding-top: 24px;
   padding-bottom: 24px;
+  position: relative;
 }
 .link:hover,
 .link:focus {
@@ -128,7 +129,6 @@ img {
   margin-right: 40px;
 }
 .menu-item {
-  position: relative;
   padding: 24px 0;
 }
 .item_address {
@@ -137,7 +137,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary_color);
-  transition: color var(--anim-fast);
 }
 .item_address:hover,
 .item_address:focus {
@@ -162,8 +161,10 @@ img {
   background-color: var(--h-f_color);
   background-color: transparent;
 }
-.link_item.active::after {
+.active::after {
   background-color: var(--h-f_color);
+  transition: color var(--anim-fast);
+  color: #404bbf;
 }
 /* ---/HEADER--- */
 /* ---HERO--- */
