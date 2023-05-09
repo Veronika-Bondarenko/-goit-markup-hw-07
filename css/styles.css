@@ -120,6 +120,10 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
   position: relative;
+  color: #404bbf;
+}
+.active {
+  color: #404bbf;
 }
 .link:hover,
 .link:focus {
@@ -159,7 +163,6 @@ img {
   display: block;
   border-radius: 2px;
   background-color: var(--h-f_color);
-  color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* ---/HEADER--- */
